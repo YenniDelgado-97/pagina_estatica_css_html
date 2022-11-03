@@ -66,3 +66,18 @@ hr {
     left: 634px;
     top: 1759px;
 }
+
+@media screen and (max-width: 768px){
+    .sobre_nosotros__titulo{
+        text-align: center;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .sobre_nosotros-imagen{
+        display: none;
+    }
+
+}

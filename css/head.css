@@ -11,6 +11,8 @@
     padding-top: .75rem;
     padding-bottom: .75rem;
     position: absolute;
+    padding-right: 6%;
+    padding-left: 6%;
 }
 
 .head__logo {
@@ -33,4 +35,24 @@
     margin-right: 20px;
     margin-bottom: .7rem;
     margin-left: .7rem;
+}
+
+@media screen and (max-width: 768px){
+    
+    .head{
+    background-color: rgb(33, 102, 102);
+        padding-top: 1px;
+        padding-left: 1%;
+
+    }
+
+    .head__navegacion{
+        margin-left: 20px;
+    }
+
+    .head__enlace{
+        margin-right: 5px;
+        margin-top: 86px;
+    }
+
 }
