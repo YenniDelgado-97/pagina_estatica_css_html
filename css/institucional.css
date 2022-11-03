@@ -94,3 +94,23 @@
     width: 375px;
     height: 210px;
 }
+
+@media screen and (max-width: 768px){
+    .container_video_contacto{
+        flex-direction: column;
+    }
+
+    .institucional__video{
+        margin-left: 150px;
+        margin-top: 34px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .institucional__video{
+        margin-left: 1px;
+        margin-top: 34px;
+        width: 330px;
+        height: 210px;
+    }
+}

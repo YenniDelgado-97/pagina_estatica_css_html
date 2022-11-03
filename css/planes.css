@@ -185,3 +185,9 @@ text-align: center;
 color: #B00024;
     border-color: var(--planes-card-mega);
 }
+
+@media screen and (max-width: 768px){
+    .planes__tarjetas {
+        flex-direction: column;
+    }
+}
