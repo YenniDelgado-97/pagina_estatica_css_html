@@ -32,6 +32,14 @@
     line-height: 22px;
     color: #4F4C4C;
 }
+hr {
+    width: 544px;
+    height: 1px;
+    left: 42px;
+    top: 2013.83px;
+
+    background: #D9D9D9;
+}
 
 .imagenes_nosotros{
     display: flex;
@@ -50,4 +58,11 @@
 .sobre-nosotros {
     color: var(--fuente-ceniza-oscuro);
     font-weight: 700;
+}
+
+.sobre_nosotros-imagen{
+    width: 348px;
+    height: 500px;
+    left: 634px;
+    top: 1759px;
 }

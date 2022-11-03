@@ -5,7 +5,9 @@
 
     color: var(--background-blanco);
     text-align: center;
-    
+    background-image: url("../img/imagen_header.png");
+    background-size: cover;
+    background-position: center;
     background-color: var(--background-llamada-mobile);
 
     padding-top: 12.25rem;
@@ -33,10 +35,16 @@
     height: 54px;
     left: 243px;
     top: 216px;
-    font-family:'Open Sans';
-    font-size: 20px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 400;
+    font-size: 20px;
     line-height: 27px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
 
     margin: 0 auto 2.5rem;
 }

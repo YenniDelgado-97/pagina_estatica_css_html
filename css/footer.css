@@ -1,7 +1,8 @@
 .footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 
     background-color: var(--background-footer);
 
@@ -9,8 +10,30 @@
     padding-bottom: 2rem;
 }
 
+.footer__logo{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+}
+.redes_sociales{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 75px;
+}
+
 .footer__social {
     display: flex;
+
+}
+
+
+
+.footer__navegacion {
+    color: var(--background-blanco);
+    font: var(--open-sans);
+    text-align: center;
+    line-height: 3;
 }
 
 .footer__midia {
@@ -20,13 +43,6 @@
     height: 42px;
 
     margin: 2rem 1rem;
-}
-
-.footer__navegacion {
-    color: var(--background-blanco);
-    font: var(--open-sans);
-    text-align: center;
-    line-height: 3;
 }
 
 
