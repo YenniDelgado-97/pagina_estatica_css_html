@@ -115,6 +115,7 @@
 .tarjetas--start {
     width: 300px;
     height: 306px;
+    margin-right: 20px;
     background: #FFFFFF;
     box-shadow: 0px 2px 10px rgb(0 0 0 / 6%);
     border-radius: 5px;
@@ -123,6 +124,7 @@
 .tarjetas--ultra {
     box-shadow: 0px 2px 10px rgb(0 0 0 / 6%);
     border-radius: 5px;
+    margin-right: 20px;
     width: 300px;
     height: 334px;
 }
@@ -139,6 +141,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     line-height: 33px;
     display: flex;
     align-items: center;
@@ -147,16 +152,19 @@
 }
 
 .tarjetas__boton--ultra {
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 33px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #690F8E;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        color: #690F8E;
 
 }
 
@@ -165,6 +173,10 @@ color: #690F8E;
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
+line-height: 33px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
 line-height: 33px;
 display: flex;
 align-items: center;
