@@ -37,8 +37,7 @@
     margin-left: .7rem;
 }
 
-
-@media screen and (min-width:376px)and(max-width: 768px){
+@media screen and (max-width: 768px){
     
     .head{
     background-color: rgb(33, 102, 102);
@@ -55,21 +54,5 @@
         margin-right: 5px;
         margin-top: 86px;
     }
-
-}
-
-@media screen and (max-width: 375px){
-    .head{
-        display: block;
-        background-color: rgb(0, 0, 0);
-    }
-
-    .head__navegacion{
-        flex-wrap: wrap;
-    }
-    .head__enlace {
-        margin-top: 0px;
-    }
-
 
 }

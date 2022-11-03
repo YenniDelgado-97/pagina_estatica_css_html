@@ -51,19 +51,3 @@
 
     margin: 0 .5rem .7rem;
 }
-
-@media screen and (min-width:376px) and (max-width: 768px){
-    .footer{
-        flex-direction: column;
-    }
-
-    .footer__logo{
-        margin-left: 170px;
-    }
-}
-
-@media screen and (max-width: 376px){
-    .footer__logo{
-        margin-right: 150px;
-    }
-}
