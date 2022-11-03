@@ -54,7 +54,7 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width:376px)and(max-width: 768px){
 
     .llamada__titulo {
             width: 522px;
@@ -77,4 +77,39 @@
         }
 
         
+}
+
+@media screen and (max-width: 375px){
+    .llamada__texto {
+        width: 538px;
+        height: 54px;
+        left: 243px;
+        top: 216px;
+        
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        
+        color: #FFFFFF;
+        
+    
+        margin: 0 auto 2.5rem;
+    }
+
+        .llamada__titulo {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            /* or 100% */
+    
+            text-align: center;
+            text-transform: uppercase;
+    
+            color: #FFFFFF;
+        }
 }

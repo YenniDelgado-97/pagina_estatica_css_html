@@ -67,7 +67,7 @@ hr {
     top: 1759px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width:376px) and(max-width: 768px){
     .sobre_nosotros__titulo{
         text-align: center;
     }
